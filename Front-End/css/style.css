@@ -1,0 +1,29 @@
+body {
+    background: #ccc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mytabs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 25px;
+}
+.mytabs input[type="radio"] {
+display: none;
+
+}
+.mytabs label{
+    padding: 25px;
+background: #e2e2e2;
+font-weight: bold;
+order: 0;
+}
+.mytabs .tab {
+    width: 100%;
+padding: 20px;
+background: #fff;
+}
+.mytabs .tab h2 {
+    font-size: 3em;
+}
